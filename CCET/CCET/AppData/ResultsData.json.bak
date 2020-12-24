@@ -1,0 +1,38 @@
+{
+    "test": {
+        "type": "rest",
+        "date": {
+            "year": 2020,
+            "month": 12,
+            "day": 23
+        },
+        "time": {
+            "hour": 15,
+            "minute": 22,
+            "second": 53
+        },
+        "results": {
+            "reaction": 848,
+            "stmr": 988,
+            "gms": 799
+        }
+    },
+    "test": {
+        "type": "crash",
+        "date": {
+            "year": 2020,
+            "month": 12,
+            "day": 24
+        },
+        "time": {
+            "hour": 13,
+            "minute": 22,
+            "second": 34
+        },
+        "results": {
+            "reaction": 738,
+            "stmr": 532,
+            "gms": 764
+        }
+    },
+}
