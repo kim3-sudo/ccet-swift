@@ -15,8 +15,8 @@ As of writing (and time of this commit), there are three tests planned to establ
 
 1. Reaction time
 2. Short-term memory recall - reading
-3. Short-term memory recall - images
+3. Physical material control
 
 Scores are compared against the user's own baseline, not anyone else's. The tasks are intended to be very simple, intended to offer a very snapshot view of the user's cognitive level.
 
-This app and its data are not intended to and cannot replace the expertise of a medical professional. If you suspect that you may have suffered a concussion, you should always seek medical help and have a proper examination to determine whether damage from some traumautic brain event has occurred. 
+This app and its data are not intended to and cannot replace the expertise of a medical professional. If you suspect that you may have suffered a concussion, you should always seek medical help and have a proper examination to determine whether damage from some traumautic brain event has occurred.
