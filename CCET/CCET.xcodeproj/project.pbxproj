@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,10 +11,9 @@
 		B50B539D259412F200F2CC86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B539C259412F200F2CC86 /* ContentView.swift */; };
 		B50B539F259412F300F2CC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50B539E259412F300F2CC86 /* Assets.xcassets */; };
 		B50B53A2259412F300F2CC86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50B53A1259412F300F2CC86 /* Preview Assets.xcassets */; };
-		B50B53AB25941A7400F2CC86 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B53AA25941A7400F2CC86 /* AboutView.swift */; };
-		B50B53AE25941D3D00F2CC86 /* AboutEvaluationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B53AD25941D3D00F2CC86 /* AboutEvaluationView.swift */; };
-		B5F448272594216800AF8FF6 /* DisclaimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F448262594216800AF8FF6 /* DisclaimerView.swift */; };
-		B5F4482A259421E200AF8FF6 /* EvaluationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5F44829259421E200AF8FF6 /* EvaluationView.swift */; };
+		B55B225F25943D91009B40F3 /* ResultsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B225E25943D91009B40F3 /* ResultsHandler.swift */; };
+		B5C366AC2594755500234851 /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = B5C366AB2594755500234851 /* NavigationStack */; };
+		B5C366AF2594783D00234851 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C366AE2594783D00234851 /* DataStructures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +23,8 @@
 		B50B539E259412F300F2CC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50B53A1259412F300F2CC86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B50B53A3259412F300F2CC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B50B53AA25941A7400F2CC86 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
-		B50B53AD25941D3D00F2CC86 /* AboutEvaluationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutEvaluationView.swift; sourceTree = "<group>"; };
-		B5F448262594216800AF8FF6 /* DisclaimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisclaimerView.swift; sourceTree = "<group>"; };
-		B5F44829259421E200AF8FF6 /* EvaluationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EvaluationView.swift; sourceTree = "<group>"; };
+		B55B225E25943D91009B40F3 /* ResultsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsHandler.swift; sourceTree = "<group>"; };
+		B5C366AE2594783D00234851 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C366AC2594755500234851 /* NavigationStack in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,12 +58,11 @@
 		B50B5399259412F200F2CC86 /* CCET */ = {
 			isa = PBXGroup;
 			children = (
+				B55B22682594484B009B40F3 /* UserData */,
 				B50B539A259412F200F2CC86 /* CCETApp.swift */,
 				B50B539C259412F200F2CC86 /* ContentView.swift */,
-				B5F44829259421E200AF8FF6 /* EvaluationView.swift */,
-				B5F448262594216800AF8FF6 /* DisclaimerView.swift */,
-				B50B53AD25941D3D00F2CC86 /* AboutEvaluationView.swift */,
-				B50B53AA25941A7400F2CC86 /* AboutView.swift */,
+				B55B225E25943D91009B40F3 /* ResultsHandler.swift */,
+				B5C366AE2594783D00234851 /* DataStructures.swift */,
 				B50B539E259412F300F2CC86 /* Assets.xcassets */,
 				B50B53A3259412F300F2CC86 /* Info.plist */,
 				B50B53A0259412F300F2CC86 /* Preview Content */,
@@ -79,6 +76,13 @@
 				B50B53A1259412F300F2CC86 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B55B22682594484B009B40F3 /* UserData */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UserData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -97,6 +101,9 @@
 			dependencies = (
 			);
 			name = CCET;
+			packageProductDependencies = (
+				B5C366AB2594755500234851 /* NavigationStack */,
+			);
 			productName = CCET;
 			productReference = B50B5397259412F200F2CC86 /* CCET.app */;
 			productType = "com.apple.product-type.application";
@@ -124,6 +131,9 @@
 				Base,
 			);
 			mainGroup = B50B538E259412F200F2CC86;
+			packageReferences = (
+				B5C366AA2594755400234851 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */,
+			);
 			productRefGroup = B50B5398259412F200F2CC86 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -151,10 +161,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50B539D259412F200F2CC86 /* ContentView.swift in Sources */,
-				B50B53AB25941A7400F2CC86 /* AboutView.swift in Sources */,
-				B5F4482A259421E200AF8FF6 /* EvaluationView.swift in Sources */,
-				B50B53AE25941D3D00F2CC86 /* AboutEvaluationView.swift in Sources */,
-				B5F448272594216800AF8FF6 /* DisclaimerView.swift in Sources */,
+				B5C366AF2594783D00234851 /* DataStructures.swift in Sources */,
+				B55B225F25943D91009B40F3 /* ResultsHandler.swift in Sources */,
 				B50B539B259412F200F2CC86 /* CCETApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,6 +350,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B5C366AA2594755400234851 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/matteopuc/swiftui-navigation-stack.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5C366AB2594755500234851 /* NavigationStack */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B5C366AA2594755400234851 /* XCRemoteSwiftPackageReference "swiftui-navigation-stack" */;
+			productName = NavigationStack;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B50B538F259412F200F2CC86 /* Project object */;
 }
