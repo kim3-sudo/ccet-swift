@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>type</key>
+  <string>rest</string>
+  <key>date</key>
+  <dict>
+    <key>year</key>
+    <string>2020</string>
+    <key>month</key>
+    <string>12</string>
+    <key>day</key>
+    <string>23</string>
+  </dict>
+  <key>time</key>
+  <dict>
+    <key>hour</key>
+    <string>13</string>
+    <key>minute</key>
+    <string>43</string>
+    <key>second</key>
+    <string>33</string>
+  </dict>
+  <key>result</key>
+  <dict>
+    <key>reaction</key>
+    <string>848</string>
+    <key>stmr</key>
+    <string>988</string>
+    <key>gms</key>
+    <string>799</string>
+  </dict>
+</dict>
+</plist>
