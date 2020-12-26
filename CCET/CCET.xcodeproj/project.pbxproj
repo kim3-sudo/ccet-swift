@@ -7,23 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7D1EE2AE2426010275305F1F /* Pods_CCET.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99645AC70893037336C901C3 /* Pods_CCET.framework */; };
 		B50B539B259412F200F2CC86 /* CCETApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B539A259412F200F2CC86 /* CCETApp.swift */; };
 		B50B539D259412F200F2CC86 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B50B539C259412F200F2CC86 /* ContentView.swift */; };
 		B50B539F259412F300F2CC86 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50B539E259412F300F2CC86 /* Assets.xcassets */; };
 		B50B53A2259412F300F2CC86 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B50B53A1259412F300F2CC86 /* Preview Assets.xcassets */; };
-		B55B225F25943D91009B40F3 /* ResultsHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B225E25943D91009B40F3 /* ResultsHandler.swift */; };
+		B55B7DDD25965ECC000DC82C /* Time_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55B7DDC25965ECC000DC82C /* Time_Manager.swift */; };
+		B58C1869259673B400AC6040 /* Data_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58C1868259673B400AC6040 /* Data_Manager.swift */; };
+		B59549DE2596CD030054E90D /* FirstRun.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59549DD2596CD030054E90D /* FirstRun.swift */; };
+		B5BD7EFA25954CFE00022FC8 /* DB_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5BD7EF925954CFE00022FC8 /* DB_Manager.swift */; };
 		B5C366AC2594755500234851 /* NavigationStack in Frameworks */ = {isa = PBXBuildFile; productRef = B5C366AB2594755500234851 /* NavigationStack */; };
 		B5C366AF2594783D00234851 /* DataStructures.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C366AE2594783D00234851 /* DataStructures.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		081B453E7301FD5F36408E3C /* Pods-CCET.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCET.release.xcconfig"; path = "Target Support Files/Pods-CCET/Pods-CCET.release.xcconfig"; sourceTree = "<group>"; };
+		941FA1AC42EE82836C7E5811 /* Pods-CCET.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CCET.debug.xcconfig"; path = "Target Support Files/Pods-CCET/Pods-CCET.debug.xcconfig"; sourceTree = "<group>"; };
+		99645AC70893037336C901C3 /* Pods_CCET.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CCET.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50B5397259412F200F2CC86 /* CCET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CCET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B50B539A259412F200F2CC86 /* CCETApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCETApp.swift; sourceTree = "<group>"; };
 		B50B539C259412F200F2CC86 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B50B539E259412F300F2CC86 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B50B53A1259412F300F2CC86 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B50B53A3259412F300F2CC86 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B55B225E25943D91009B40F3 /* ResultsHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsHandler.swift; sourceTree = "<group>"; };
+		B55B7DDC25965ECC000DC82C /* Time_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Time_Manager.swift; sourceTree = "<group>"; };
+		B58C1868259673B400AC6040 /* Data_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data_Manager.swift; sourceTree = "<group>"; };
+		B59549DD2596CD030054E90D /* FirstRun.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstRun.swift; sourceTree = "<group>"; };
+		B5BD7EF925954CFE00022FC8 /* DB_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_Manager.swift; sourceTree = "<group>"; };
 		B5C366AE2594783D00234851 /* DataStructures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataStructures.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -33,17 +43,28 @@
 			buildActionMask = 2147483647;
 			files = (
 				B5C366AC2594755500234851 /* NavigationStack in Frameworks */,
+				7D1EE2AE2426010275305F1F /* Pods_CCET.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13667869F3861CF22FACC095 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99645AC70893037336C901C3 /* Pods_CCET.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B50B538E259412F200F2CC86 = {
 			isa = PBXGroup;
 			children = (
 				B50B5399259412F200F2CC86 /* CCET */,
 				B50B5398259412F200F2CC86 /* Products */,
+				BE15A7FF75102C6B2A6DCC30 /* Pods */,
+				13667869F3861CF22FACC095 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,14 +79,16 @@
 		B50B5399259412F200F2CC86 /* CCET */ = {
 			isa = PBXGroup;
 			children = (
-				B55B22682594484B009B40F3 /* UserData */,
 				B50B539A259412F200F2CC86 /* CCETApp.swift */,
+				B55B7DDC25965ECC000DC82C /* Time_Manager.swift */,
 				B50B539C259412F200F2CC86 /* ContentView.swift */,
-				B55B225E25943D91009B40F3 /* ResultsHandler.swift */,
 				B5C366AE2594783D00234851 /* DataStructures.swift */,
+				B5BD7EF925954CFE00022FC8 /* DB_Manager.swift */,
 				B50B539E259412F300F2CC86 /* Assets.xcassets */,
 				B50B53A3259412F300F2CC86 /* Info.plist */,
 				B50B53A0259412F300F2CC86 /* Preview Content */,
+				B58C1868259673B400AC6040 /* Data_Manager.swift */,
+				B59549DD2596CD030054E90D /* FirstRun.swift */,
 			);
 			path = CCET;
 			sourceTree = "<group>";
@@ -78,11 +101,13 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B55B22682594484B009B40F3 /* UserData */ = {
+		BE15A7FF75102C6B2A6DCC30 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
+				941FA1AC42EE82836C7E5811 /* Pods-CCET.debug.xcconfig */,
+				081B453E7301FD5F36408E3C /* Pods-CCET.release.xcconfig */,
 			);
-			path = UserData;
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -92,9 +117,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B50B53A6259412F300F2CC86 /* Build configuration list for PBXNativeTarget "CCET" */;
 			buildPhases = (
+				E4E103AF210D456539203D03 /* [CP] Check Pods Manifest.lock */,
 				B50B5393259412F200F2CC86 /* Sources */,
 				B50B5394259412F200F2CC86 /* Frameworks */,
 				B50B5395259412F200F2CC86 /* Resources */,
+				0AFA63863721C2C9224C291D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -155,14 +182,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AFA63863721C2C9224C291D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCET/Pods-CCET-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CCET/Pods-CCET-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CCET/Pods-CCET-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4E103AF210D456539203D03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CCET-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B50B5393259412F200F2CC86 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				B50B539D259412F200F2CC86 /* ContentView.swift in Sources */,
+				B55B7DDD25965ECC000DC82C /* Time_Manager.swift in Sources */,
+				B59549DE2596CD030054E90D /* FirstRun.swift in Sources */,
+				B5BD7EFA25954CFE00022FC8 /* DB_Manager.swift in Sources */,
+				B58C1869259673B400AC6040 /* Data_Manager.swift in Sources */,
 				B5C366AF2594783D00234851 /* DataStructures.swift in Sources */,
-				B55B225F25943D91009B40F3 /* ResultsHandler.swift in Sources */,
 				B50B539B259412F200F2CC86 /* CCETApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,6 +360,7 @@
 		};
 		B50B53A7259412F300F2CC86 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 941FA1AC42EE82836C7E5811 /* Pods-CCET.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +382,7 @@
 		};
 		B50B53A8259412F300F2CC86 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 081B453E7301FD5F36408E3C /* Pods-CCET.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
